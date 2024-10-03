@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black #0D1117;
+    color:aliceblue #f0f8ff;
+}
+
+h1 {
+    color: antiquewhite #faebd7;
+}
+
+
+a {
+    color:aqua #00FFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color:azure #F0FFFF;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+h1 + p {
+    background-color: aquamarine#7FFFD4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    color:black#000000;
+}
+
+ul li:nth-child(3) {
+    background-color: chartreuse#7fff00;
+}
+
+p:not(:first-of-type) {
+
+    text-decoration: underline;
+
+}
+
+/* ::before Pseudo-element */
+
+ul li::before {
+
+    content: "🚀 ";
+
+}
+
+/* ::after Pseudo-element */
+
+a::after {
+
+    content: " 🌌";
+
+}
+
+/* ::first-letter Pseudo-element */
+
+p::first-letter {
+
+    font-size: 200%;
+
+    color: #FF7B72;
+
+}
